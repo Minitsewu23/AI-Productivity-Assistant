@@ -95,7 +95,8 @@ function getAssistantReply(input: string): string {
 
   // Beauty tips
   if (/(tip|advice|recommend|prepare|before)/.test(q)) {
-    return BEAUTY_TIPS[Math.floor(Math.random() * BEAUTY_TIPS.length)] ?? BEAUTY_TIPS[0];
+    const tip = BEAUTY_TIPS[Math.floor(Math.random() * BEAUTY_TIPS.length)];
+    return tip ?? "Book your colour or chemical treatment at least 48 hours before a big event for the best results.";
   }
 
   // Fallback
