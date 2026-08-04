@@ -95,7 +95,7 @@ function getAssistantReply(input: string): string {
 
   // Beauty tips
   if (/(tip|advice|recommend|prepare|before)/.test(q)) {
-    return BEAUTY_TIPS[Math.floor(Math.random() * BEAUTY_TIPS.length)];
+    return BEAUTY_TIPS[Math.floor(Math.random() * BEAUTY_TIPS.length)] ?? BEAUTY_TIPS[0];
   }
 
   // Fallback

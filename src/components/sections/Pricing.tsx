@@ -2,7 +2,7 @@ import { useState } from "react";
 import { SERVICES, SALON_INFO } from "@/lib/salon-data";
 
 export function Pricing() {
-  const [activeCategory, setActiveCategory] = useState(SERVICES[0].category);
+  const [activeCategory, setActiveCategory] = useState(SERVICES[0]!.category);
   const activeGroup = SERVICES.find((g) => g.category === activeCategory);
 
   return (
