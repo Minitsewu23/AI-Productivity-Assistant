@@ -63,3 +63,20 @@ export const SALON_CHAT_SYSTEM_PROMPT = `You are the AI Business Assistant for Y
 ${SALON_CONTEXT}
 
 ${SIGNATURE}`;
+
+export async function runSalonTool(tool: SalonToolKey, input: string) {
+  const key = process.env["LOVABLE_API_KEY"];
+  if (!key) throw new Error("AI is not configured for this project yet.");
+
+  const { streamText } = await import("ai");
+  const { createLovableAiGatewayProvider } = await import("./ai-gateway.server");
+
+  const gateway = createLovableAiGatewayProvider(key);
+  const result = streamText({
+    model: gateway("google/gemini-3.6-flash"),
+    system: SALON_TOOL_PROMPTS[tool],
+    prompt: input,
+  });
+
+  return { text: await result.text };
+}
