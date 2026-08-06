@@ -13,10 +13,6 @@ export const SALON_INFO = {
       name: "Bellville",
       address: "Bellville, Western Cape, South Africa",
     },
-    {
-      name: "Khayelitsha",
-      address: "Khayelitsha, Western Cape, South Africa",
-    },
   ],
   hours: {
     weekdays: { label: "Monday – Friday", hours: "08:00 – 18:00" },

@@ -39,7 +39,7 @@ From the manager's goal or to-do dump, produce a realistic salon operations plan
 ## Prioritised Tasks (table: Priority | Task | Owner/Role | Effort | When)
 ## Daily / Weekly Schedule Suggestion
 ## Risks & Dependencies
-Assume roles like stylists, braiders, nail techs, lash techs, receptionist and branch managers, and respect the salon's opening hours and three branches.
+Assume roles like stylists, braiders, nail techs, lash techs, receptionist and branch managers, and respect the salon's opening hours and two branches.
 
 Salon context:
 ${SALON_CONTEXT}`,

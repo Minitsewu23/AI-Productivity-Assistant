@@ -17,7 +17,7 @@ export const Route = createFileRoute("/")({
       {
         name: "description",
         content:
-          "Book premium hair, beauty, makeup, skincare, and nail services at Ponxo's Glam House. Three branches in Cape Town CBD, Bellville, and Khayelitsha.",
+          "Book premium hair, beauty, makeup, skincare, and nail services at Ponxo's Glam House. Two branches in Cape Town CBD and Bellville.",
       },
       {
         property: "og:title",
