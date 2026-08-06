@@ -39,7 +39,7 @@ const TABS: {
     blurb:
       "Describe your goal or dump your to-do list and receive a prioritised salon operations plan.",
     placeholder:
-      "e.g. Prepare all three branches for matric ball season in 6 weeks — staffing, stock, promos and bridal packages.",
+      "e.g. Prepare both branches for matric ball season in 6 weeks — staffing, stock, promos and bridal packages.",
   },
   {
     key: "research",

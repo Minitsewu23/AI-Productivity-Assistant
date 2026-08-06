@@ -70,7 +70,7 @@ function getAssistantReply(input: string): string {
 
   // Branches / locations
   if (/(branch|location|where|address|find you|situated)/.test(q)) {
-    return `We have three branches across Cape Town: Cape Town CBD, Bellville, and Khayelitsha. Which branch is most convenient for you?`;
+    return `We have two branches across Cape Town: Cape Town CBD and Bellville. Which branch is most convenient for you?`;
   }
 
   // Hours
@@ -108,7 +108,7 @@ export function ChatAssistant() {
   const [messages, setMessages] = useState<Message[]>([
     {
       role: "assistant",
-      text: `Hi, I'm your Majesty beauty assistant! 👑 I can tell you about our services, prices, branches, and hours — or help you book. How may I assist you?`,
+      text: `Hi, I'm your Glam House beauty assistant! 👑 I can tell you about our services, prices, branches, and hours — or help you book. How may I assist you?`,
     },
   ]);
   const [input, setInput] = useState("");
@@ -153,7 +153,7 @@ export function ChatAssistant() {
             <div className="flex items-center gap-2">
               <Crown className="h-5 w-5 text-primary-foreground" />
               <span className="font-semibold text-primary-foreground">
-                Majesty Assistant
+                Glam House Assistant
               </span>
             </div>
             <button

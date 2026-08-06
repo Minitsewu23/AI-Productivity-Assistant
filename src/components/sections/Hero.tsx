@@ -58,7 +58,7 @@ export function Hero() {
             </span>
             <span className="flex items-center gap-2">
               <span className="inline-block h-2 w-2 rounded-full bg-accent" />
-              Three branches
+              Two branches
             </span>
             <span className="flex items-center gap-2">
               <span className="inline-block h-2 w-2 rounded-full bg-accent" />

@@ -1,5 +1,5 @@
 export const SALON_CONTEXT = `Business: Ponxo's Glam House — a luxury hair, beauty, makeup, skincare and nail destination in Cape Town, South Africa.
-Branches: Cape Town CBD, Bellville, Khayelitsha.
+Branches: Cape Town CBD and Bellville.
 Phone: +27 21 555 1234 | WhatsApp: +27 82 123 4567 | Email: bookings@yourmajestyhair.co.za
 Hours: Mon-Fri 08:00-18:00, Sat 08:00-17:00, Sun 09:00-15:00, Public Holidays 09:00-14:00.
 Clients: women, men and children.
@@ -39,7 +39,7 @@ From the manager's goal or to-do dump, produce a realistic salon operations plan
 ## Prioritised Tasks (table: Priority | Task | Owner/Role | Effort | When)
 ## Daily / Weekly Schedule Suggestion
 ## Risks & Dependencies
-Assume roles like stylists, braiders, nail techs, lash techs, receptionist and branch managers, and respect the salon's opening hours and three branches.
+Assume roles like stylists, braiders, nail techs, lash techs, receptionist and branch managers, and respect the salon's opening hours and two branches.
 
 Salon context:
 ${SALON_CONTEXT}`,

@@ -11,7 +11,7 @@ export function Footer() {
               {SALON_INFO.name}
             </h3>
             <p className="mt-3 max-w-md text-muted-foreground">
-              {SALON_INFO.tagline} Three branches across Cape Town delivering
+              {SALON_INFO.tagline} Two branches across Cape Town delivering
               premium hair, beauty, makeup, skincare, and nail services.
             </p>
           </div>
