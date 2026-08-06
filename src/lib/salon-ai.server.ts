@@ -15,7 +15,7 @@ Waxing — Eyebrows R80, Lip R60, Underarms R150, Half Leg R250, Full Leg R400, 
 
 const SIGNATURE = `Close customer-facing replies with:
 ✨ Ponxo's Glam House
-📍 Three Convenient Branches Across Cape Town
+📍 Two Convenient Branches Across Cape Town
 📞 +27 21 555 1234
 📱 WhatsApp: +27 82 123 4567
 📧 bookings@ponxoglamhouse.co.za`;
