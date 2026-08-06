@@ -1,6 +1,6 @@
 export const SALON_CONTEXT = `Business: Ponxo's Glam House — a luxury hair, beauty, makeup, skincare and nail destination in Cape Town, South Africa.
 Branches: Cape Town CBD and Bellville.
-Phone: +27 21 555 1234 | WhatsApp: +27 82 123 4567 | Email: bookings@yourmajestyhair.co.za
+Phone: +27 21 555 1234 | WhatsApp: +27 82 123 4567 | Email: bookings@ponxo'sglamhouse.co.za
 Hours: Mon-Fri 08:00-18:00, Sat 08:00-17:00, Sun 09:00-15:00, Public Holidays 09:00-14:00.
 Clients: women, men and children.
 
@@ -18,7 +18,7 @@ const SIGNATURE = `Close customer-facing replies with:
 📍 Three Convenient Branches Across Cape Town
 📞 +27 21 555 1234
 📱 WhatsApp: +27 82 123 4567
-📧 bookings@yourmajestyhair.co.za`;
+📧 bookings@ponxo'sglamhouse.co.za`;
 
 export const SALON_TOOL_PROMPTS = {
   meeting: `You are the salon manager's Meeting Notes Summarizer for Ponxo's Glam House.

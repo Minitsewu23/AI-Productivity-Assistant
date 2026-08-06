@@ -3,7 +3,7 @@ export const SALON_INFO = {
   tagline: "Experience beauty fit for royalty.",
   phone: "+27 21 555 1234",
   whatsapp: "+27 82 123 4567",
-  email: "bookings@yourmajestyhair.co.za",
+  email: "bookings@ponxo'sglamhouse.co.za",
   branches: [
     {
       name: "Cape Town CBD",
