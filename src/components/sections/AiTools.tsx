@@ -55,7 +55,7 @@ const TABS: {
     label: "AI Chatbot Interface",
     icon: <MessageCircle className="h-4 w-4" />,
     blurb:
-      "Chat live with the Majesty business assistant about services, prices, branches and bookings.",
+      "Chat live with the Glam House business assistant about services, prices, branches and bookings.",
     placeholder: "Ask about services, prices, branches or booking...",
   },
 ];
@@ -72,7 +72,7 @@ export function AiTools() {
             AI Suite
           </p>
           <h2 className="mt-3 text-4xl font-bold text-foreground sm:text-5xl">
-            Your Majesty AI assistants
+            Ponxo's Glam House AI assistants
           </h2>
           <p className="mx-auto mt-4 max-w-2xl text-lg text-muted-foreground">
             Four intelligent assistants built for the salon — for the team
@@ -213,7 +213,7 @@ function SalonChat({ placeholder }: { placeholder: string }) {
           <div className="flex items-start gap-3 text-sm text-muted-foreground">
             <Crown className="mt-0.5 h-4 w-4 text-primary" />
             <p>
-              Hi, I&apos;m your Majesty business assistant. Ask me about
+              Hi, I&apos;m your Glam House business assistant. Ask me about
               services, prices, branches, hours or how to book.
             </p>
           </div>

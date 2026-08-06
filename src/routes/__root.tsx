@@ -77,14 +77,14 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Your Majesty Hair & Beauty Salon" },
+      { title: "Ponxo's Glam House" },
       { name: "description", content: "Luxury hair, beauty, makeup, skincare, and nail services across three Cape Town branches." },
-      { name: "author", content: "Your Majesty Hair & Beauty Salon" },
-      { property: "og:title", content: "Your Majesty Hair & Beauty Salon" },
+      { name: "author", content: "Ponxo's Glam House" },
+      { property: "og:title", content: "Ponxo's Glam House" },
       { property: "og:description", content: "Luxury hair, beauty, makeup, skincare, and nail services across three Cape Town branches." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
-      { name: "twitter:site", content: "@YourMajestyHair" },
+      { name: "twitter:site", content: "@PonxosGlamHouse" },
     ],
     links: [
       {

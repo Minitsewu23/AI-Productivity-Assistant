@@ -15,9 +15,9 @@ export function Booking() {
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    const subject = encodeURIComponent("Booking Request - Your Majesty Salon");
+    const subject = encodeURIComponent("Booking Request - Ponxo's Glam House");
     const body = encodeURIComponent(
-      `Hi Your Majesty team,\n\nI would like to book an appointment. Here are my details:\n\n` +
+      `Hi Ponxo's Glam House team,\n\nI would like to book an appointment. Here are my details:\n\n` +
         `Name: ${form.name}\n` +
         `Email: ${form.email}\n` +
         `Phone: ${form.phone}\n` +
@@ -80,7 +80,7 @@ export function Booking() {
             <div className="mt-8 overflow-hidden rounded-2xl">
               <img
                 src="/images/hair-model.jpg"
-                alt="Styled braided hair at Your Majesty Salon"
+                alt="Styled braided hair at Ponxo's Glam House"
                 className="h-80 w-full object-cover"
                 width={1024}
                 height={1024}

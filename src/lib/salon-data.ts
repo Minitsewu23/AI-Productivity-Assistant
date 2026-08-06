@@ -1,5 +1,5 @@
 export const SALON_INFO = {
-  name: "Your Majesty Hair & Beauty Salon",
+  name: "Ponxo's Glam House",
   tagline: "Experience beauty fit for royalty.",
   phone: "+27 21 555 1234",
   whatsapp: "+27 82 123 4567",

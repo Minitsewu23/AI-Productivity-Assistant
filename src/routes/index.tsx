@@ -12,16 +12,16 @@ export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
       {
-        title: "Your Majesty Hair & Beauty Salon | Cape Town",
+        title: "Ponxo's Glam House | Cape Town",
       },
       {
         name: "description",
         content:
-          "Book premium hair, beauty, makeup, skincare, and nail services at Your Majesty Hair & Beauty Salon. Three branches in Cape Town CBD, Bellville, and Khayelitsha.",
+          "Book premium hair, beauty, makeup, skincare, and nail services at Ponxo's Glam House. Three branches in Cape Town CBD, Bellville, and Khayelitsha.",
       },
       {
         property: "og:title",
-        content: "Your Majesty Hair & Beauty Salon | Cape Town",
+        content: "Ponxo's Glam House | Cape Town",
       },
       {
         property: "og:description",
@@ -31,7 +31,7 @@ export const Route = createFileRoute("/")({
       { property: "og:type", content: "website" },
       { property: "og:image", content: "https://id-preview--8e457f32-1839-4078-9d5d-1d580dc19686.lovable.app/images/hero-salon.jpg" },
       { name: "twitter:card", content: "summary_large_image" },
-      { name: "twitter:title", content: "Your Majesty Hair & Beauty Salon | Cape Town" },
+      { name: "twitter:title", content: "Ponxo's Glam House | Cape Town" },
       { name: "twitter:description", content: "Luxury hair, beauty, makeup, skincare, and nail services across three Cape Town branches." },
       { name: "twitter:image", content: "https://id-preview--8e457f32-1839-4078-9d5d-1d580dc19686.lovable.app/images/hero-salon.jpg" },
     ],
