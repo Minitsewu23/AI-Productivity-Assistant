@@ -79,7 +79,7 @@ export function Footer() {
             reserved.
           </p>
           <p className="mt-2 text-xs text-muted-foreground">
-            Three Convenient Branches Across Cape Town ·{" "}
+            Two Convenient Branches Across Cape Town ·{" "}
             {SALON_INFO.phone} · {SALON_INFO.email}
           </p>
         </div>
