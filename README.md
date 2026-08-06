@@ -247,8 +247,8 @@ Brazilian Wax — R450Call to Action
 
 Always end customer communications with:
 
-✨ Your Majesty Hair & Beauty Salon
-📍 Three Convenient Branches Across Cape Town
+✨ Ponxo's Glam House
+📍 Two Convenient Branches Across Cape Town
 📞 +27 21 555 1234
 📱 WhatsApp: +27 82 123 4567
 📧 bookings@yourmajestyhair.co.za

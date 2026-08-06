@@ -10,7 +10,7 @@ export function Branches() {
             Visit Us
           </p>
           <h2 className="mt-3 text-4xl font-bold text-foreground sm:text-5xl">
-            Three convenient Cape Town branches
+            Two convenient Cape Town branches
           </h2>
           <p className="mt-4 text-lg text-muted-foreground">
             Choose the location closest to you and enjoy the same royal
