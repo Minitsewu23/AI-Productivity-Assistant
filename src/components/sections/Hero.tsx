@@ -1,9 +1,9 @@
 import { SALON_INFO } from "@/lib/salon-data";
 
 export function Hero() {
-  const subject = encodeURIComponent("Booking Request - Your Majesty Salon");
+  const subject = encodeURIComponent("Booking Request - Ponxo's Glam House");
   const body = encodeURIComponent(
-    `Hi Your Majesty team,\n\nI'd like to book an appointment. Please see my details below:\n\nName: \nPhone: \nPreferred branch: \nService: \nPreferred date/time: \n\nThank you!`
+    `Hi Ponxo's Glam House team,\n\nI'd like to book an appointment. Please see my details below:\n\nName: \nPhone: \nPreferred branch: \nService: \nPreferred date/time: \n\nThank you!`
   );
 
   return (
@@ -11,7 +11,7 @@ export function Hero() {
       <div className="absolute inset-0 z-0">
         <img
           src="/images/hero-salon.jpg"
-          alt="Luxury interior of Your Majesty Hair & Beauty Salon"
+          alt="Luxury interior of Ponxo's Glam House"
           className="h-full w-full object-cover"
           width={1920}
           height={1080}

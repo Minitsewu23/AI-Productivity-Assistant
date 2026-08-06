@@ -14,7 +14,7 @@ export function Branches() {
           </h2>
           <p className="mt-4 text-lg text-muted-foreground">
             Choose the location closest to you and enjoy the same royal
-            treatment at every Your Majesty salon.
+            treatment at every Ponxo's Glam House salon.
           </p>
         </div>
 
