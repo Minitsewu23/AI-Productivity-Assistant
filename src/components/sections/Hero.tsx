@@ -1,3 +1,4 @@
+import { Link } from "@tanstack/react-router";
 import { SALON_INFO } from "@/lib/salon-data";
 
 export function Hero() {
@@ -49,7 +50,15 @@ export function Hero() {
             >
               Chat on WhatsApp
             </a>
+            <Link
+              to="/slides"
+              search={{ slide: 1 }}
+              className="inline-flex items-center justify-center rounded-full border border-border bg-background/80 px-8 py-4 text-sm font-semibold text-foreground backdrop-blur-sm transition-all hover:bg-secondary"
+            >
+              View Presentation
+            </Link>
           </div>
+
 
           <div className="mt-10 flex flex-wrap items-center gap-6 text-sm text-muted-foreground">
             <span className="flex items-center gap-2">
