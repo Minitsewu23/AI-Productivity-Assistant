@@ -1,3 +1,4 @@
+import { Link } from "@tanstack/react-router";
 import { SALON_INFO } from "@/lib/salon-data";
 
 export function Hero() {
