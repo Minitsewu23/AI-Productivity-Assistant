@@ -75,11 +75,11 @@ function ServicesSlide() {
         <h2 className="slide-title mt-6 font-bold text-foreground">
           Seven categories, one standard
         </h2>
-        <div className="mt-16 grid grid-cols-3 gap-8">
-          {SERVICES.slice(0, 6).map((group) => (
+        <div className="mt-14 grid grid-cols-4 gap-6">
+          {SERVICES.map((group) => (
             <div
               key={group.category}
-              className="rounded-3xl border border-border bg-card p-10"
+              className="rounded-3xl border border-border bg-card p-8"
             >
               <h3 className="slide-subtitle font-semibold text-card-foreground">
                 {group.category}
