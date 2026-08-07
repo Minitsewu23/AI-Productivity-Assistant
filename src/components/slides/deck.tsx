@@ -253,7 +253,7 @@ function CtaSlide() {
 export interface DeckSlide {
   id: string;
   title: string;
-  Component: () => JSX.Element;
+  Component: () => React.ReactElement;
 }
 
 export const SLIDES: DeckSlide[] = [
